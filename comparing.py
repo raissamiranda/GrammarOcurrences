@@ -10,15 +10,16 @@ prefixes = [
     '/frontend/jetlist'
 ]
 
-def comparar_json(arquivo1, arquivo2, arquivo_saida, arquivo_null):
+def comparar_json(arquivo1, arquivo2, arquivo_saida, arquivo_null, arquivo_high_count):
     # Abre os dois arquivos JSON
     with open(arquivo1, 'r') as f1, open(arquivo2, 'r') as f2:
         json1 = json.load(f1)
         json2 = json.load(f2)
 
-    # Lista para armazenar as diferenças significativas
+    # Listas para armazenar as diferenças significativas e arquivos específicos
     diferencas = []
     null_files = []
+    high_count_functions = []
 
     # Itera pelos arquivos no primeiro JSON
     for obj_file1 in json1:
@@ -50,6 +51,14 @@ def comparar_json(arquivo1, arquivo2, arquivo_saida, arquivo_null):
                                 'count1': count1,
                                 'count2': count2
                             })
+                        # Salva as funções com count1 > 100000 e count2 == 0
+                        if count1 > 100000 and count2 == 0:
+                            high_count_functions.append({
+                                'file': obj_file1['file'],
+                                'function': name,
+                                'count1': count1,
+                                'count2': count2
+                            })
 
     # Salva as diferenças significativas em um arquivo JSON
     with open(arquivo_saida, 'w') as f_out:
@@ -59,11 +68,16 @@ def comparar_json(arquivo1, arquivo2, arquivo_saida, arquivo_null):
     with open(arquivo_null, 'w') as f_null:
         json.dump(null_files, f_null, indent=4)
 
+    # Salva as funções com count1 > 100000 e count2 = 0 em um terceiro arquivo JSON
+    with open(arquivo_high_count, 'w') as f_high:
+        json.dump(high_count_functions, f_high, indent=4)
+
 # Arquivos de entrada e saída
 file1 = 'coverage_chibench.json'
 file2 = 'coverage_chigen_4gram_HR.json'
 output_file = 'diff_functions.json'
 null_files_output = 'null_files.json'
+high_count_output = 'high_count_functions.json'
 
 # Executa a comparação
-comparar_json(file1, file2, output_file, null_files_output)
+comparar_json(file1, file2, output_file, null_files_output, high_count_output)
