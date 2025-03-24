@@ -1,0 +1,66 @@
+# ----------------------------------------
+# Jasper Version Info
+# tool      : Jasper 2023.12
+# platform  : Linux 6.5.0-28-generic
+# version   : 2023.12p002 64 bits
+# build date: 2024.02.21 12:57:35 UTC
+# ----------------------------------------
+# started   : 2025-03-21 08:52:03 -03
+# hostname  : britto.(none)
+# pid       : 58189
+# arguments : '-label' 'session_0' '-console' '//127.0.0.1:34879' '-nowindow' '-style' 'windows' '-data' 'AAAAxHicY2RgYLCp////PwMYMFcBCQEGHwZfhiAGVyDpzxAGpOGA8QGUYcPIgApAfCZUkcAGFJqBgRWmGaYEpEGLQZchkSEHCPMZyhniGUoZ8hiKgWQBEOYzFDGUMKQypADF/RmCgar5gKrzgOLxDOlANZlgUwCxrhUR' '-proj' '/home/joaovam/projects/chimera/chigen_programs/10k_programs_per_k/1gram/jgproject/sessionLogs/session_0' '-init' '-hidden' '/home/joaovam/projects/chimera/chigen_programs/10k_programs_per_k/1gram/jgproject/.tmp/.initCmds.tcl'
+
+Any disclosure about the Cadence Design Systems software or its use
+model to any third party violates the written Non-Disclosure Agreement
+between Cadence Design Systems, Inc. and the customer.
+
+THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF
+CADENCE DESIGN SYSTEMS, INC. USE, DISCLOSURE, OR REPRODUCTION IS
+PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF CADENCE
+DESIGN SYSTEMS, INC.
+
+Copyright (C) 2000-2023 Cadence Design Systems, Inc. All Rights
+Reserved.  Unpublished -- rights reserved under the copyright laws of
+the United States.
+
+This product includes software developed by others and redistributed
+according to license agreement. See doc/third_party_readme.txt for
+further details.
+
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c) (1) (ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c) (1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+
+                          Cadence Design Systems, Inc.
+                          2655 Seely Avenue
+                          San Jose, CA 95134
+                          Phone: 408.943.1234
+
+For technical assistance visit http://support.cadence.com.
+
+Jasper Apps Analysis Session - /home/joaovam/projects/chimera/chigen_programs/10k_programs_per_k/1gram/jgproject/sessionLogs/session_0
+
+INFO: successfully checked out licenses "jasper_interactive" and "jasper_fao".
+INFO: reading configuration file "/home/joaovam/.config/cadence/jasper.conf".
+INFO (IPL017): The host machine is running out of memory.
+    This message was triggered because the system reached 10% memory.
+    System memory use information:
+    [Process]
+        Memory In Use: 341952 kB (1%)
+        Peak Memory Usage: 341952 kB (1%)
+    [Host]
+        Available Memory: 1889032 kB (5%)
+        Total Memory: 32751312 kB
+        Free Swap: 23899132 kB (74%)
+        Total Swap: 32027644 kB
+INFO (IIM002): *** Stopping all proof jobs ***
+INFO (IPL005): Received request to exit from the console.
+INFO (IPL014): Waiting for the Tcl-thread to exit.
+INFO (IPL018): The peak resident set memory use for this session was 0.326 GB.
+INFO (IPL015): The Tcl-thread exited with status 0.
+INFO (IPL016): Exiting the analysis session with status 0.

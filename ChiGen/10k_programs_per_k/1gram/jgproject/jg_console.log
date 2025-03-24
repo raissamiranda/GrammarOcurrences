@@ -1,0 +1,66 @@
+2025-03-21 08:52:02.663641 (58169) main____ INFO    ----------------------------------------
+2025-03-21 08:52:02.663680 (58169) main____ INFO    Jasper version info
+2025-03-21 08:52:02.663686 (58169) main____ INFO      tool      : Jasper 2023.12
+2025-03-21 08:52:02.663691 (58169) main____ INFO      version   : 2023.12p002 64 bits
+2025-03-21 08:52:02.663696 (58169) main____ INFO      build date: 2024.02.21 12:57:35 UTC
+2025-03-21 08:52:02.663699 (58169) main____ INFO    ----------------------------------------
+2025-03-21 08:52:02.663703 (58169) main____ INFO    Runtime info:
+2025-03-21 08:52:02.663706 (58169) main____ INFO      platform  : Linux 6.5.0-28-generic x86_64
+2025-03-21 08:52:02.663711 (58169) main____ INFO      hostname  : britto
+2025-03-21 08:52:02.663716 (58169) main____ INFO      pid       : 58169
+2025-03-21 08:52:02.663720 (58169) main____ INFO      arguments : '-style' 'windows' '-allow_unsupported_OS' '-no_gui'
+2025-03-21 08:52:02.663724 (58169) main____ INFO      locale    : UTF-8
+2025-03-21 08:52:02.663727 (58169) main____ INFO    ----------------------------------------
+2025-03-21 08:52:02.663731 (58169) main____ INFO    System resource limits info:
+2025-03-21 08:52:02.663735 (58169) main____ INFO      virtual memory: unlimited
+2025-03-21 08:52:02.663739 (58169) main____ INFO      cpu time      : unlimited
+2025-03-21 08:52:02.663745 (58169) main____ INFO      processes     : 127635
+2025-03-21 08:52:02.663752 (58169) main____ INFO      stack size    : 8388608 B
+2025-03-21 08:52:02.663756 (58169) main____ INFO      core file size: 0 B
+2025-03-21 08:52:02.663761 (58169) main____ INFO      open files    : 1048576
+2025-03-21 08:52:02.663765 (58169) main____ INFO      file size     : unlimited
+2025-03-21 08:52:02.663768 (58169) main____ INFO    ----------------------------------------
+2025-03-21 08:52:02.663772 (58169) main____ INFO    Memory statistics:
+2025-03-21 08:52:02.663776 (58169) main____ INFO      total physical memory  : 32751312 kB
+2025-03-21 08:52:02.663780 (58169) main____ INFO      free physical memory   : 604188 kB
+2025-03-21 08:52:02.663784 (58169) main____ INFO      committed address space: 32242944 kB
+2025-03-21 08:52:02.663787 (58169) main____ INFO    ----------------------------------------
+2025-03-21 08:52:02.664066 (58169) main____ INFO    Important environment variables:
+2025-03-21 08:52:02.664076 (58169) main____ INFO      JASPER_INSTALL_DIR : '/home/rafael/jasper_2023.12p002'
+2025-03-21 08:52:02.664080 (58169) main____ INFO      JASPER_KERNEL_CHECK: '1'
+2025-03-21 08:52:02.664084 (58169) main____ INFO      JASPER_OS_CHECK    : '0'
+2025-03-21 08:52:02.664088 (58169) main____ INFO      LANG               : 'en_US.UTF-8'
+2025-03-21 08:52:02.664092 (58169) main____ INFO      LC_ADDRESS         : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664096 (58169) main____ INFO      LC_CTYPE           : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664100 (58169) main____ INFO      LC_IDENTIFICATION  : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664103 (58169) main____ INFO      LC_MEASUREMENT     : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664107 (58169) main____ INFO      LC_MONETARY        : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664111 (58169) main____ INFO      LC_NAME            : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664115 (58169) main____ INFO      LC_NUMERIC         : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664119 (58169) main____ INFO      LC_PAPER           : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664122 (58169) main____ INFO      LC_TELEPHONE       : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664126 (58169) main____ INFO      LC_TIME            : 'pt_BR.UTF-8'
+2025-03-21 08:52:02.664130 (58169) main____ INFO      LM_LICENSE_FILE    : '5280@150.164.33.36'
+2025-03-21 08:52:02.664134 (58169) main____ INFO    ----------------------------------------
+2025-03-21 08:52:02.665235 (58169) lic_core INFO    Initializing license system ...
+2025-03-21 08:52:02.674595 (58169) lic_core INFO    ... license system initialized.
+2025-03-21 08:52:02.681435 (58169) lic__man INFO    Claim 'main' for <ui>.
+2025-03-21 08:52:02.681461 (58169) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2025-03-21 08:52:02.693973 (58169) lic_core INFO    ... (1) checkout succeeded
+2025-03-21 08:52:02.694009 (58169) lic__man INFO    Claim 'fpv' for <ui>.
+2025-03-21 08:52:02.694019 (58169) lic_core INFO    (2) checking out 'jasper_fpv' ...
+2025-03-21 08:52:02.702885 (58169) lic_core INFO    ... (2) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2025-03-21 08:52:02.702917 (58169) lic_core INFO    (3) checking out 'jasper_fao' ...
+2025-03-21 08:52:02.714934 (58169) lic_core INFO    ... (3) checkout succeeded
+2025-03-21 08:52:02.719085 (58188) stdio___ INFO    Starting STDIN reader (tty: yes, tty name: '/dev/pts/4')
+2025-03-21 08:52:02.721795 (58169) main____ INFO    Tool inactivity delay is 480000 ms.
+2025-03-21 08:52:02.742531 (58169) session_ INFO    Starting analysis session with session id 'session_0' (launcher: <local>) ...
+2025-03-21 08:52:02.743903 (58169) session_ INFO    Analysis session with session id 'session_0' started (pid: 58189)
+2025-03-21 08:52:04.228931 (58169) session_ INFO    Analysis session 'session_0' connected to the console (host: 127.0.0.1:51354)
+2025-03-21 08:52:12.240346 (58195) main____ INFO    SIGINT received (#1). Trying to interrupt current computation(s).
+2025-03-21 08:52:12.361440 (58195) main____ INFO    SIGINT received (#2). Trying to save and exit.
+2025-03-21 08:52:12.389551 (58169) main____ INFO    The database has been auto-saved to '/home/joaovam/projects/chimera/chigen_programs/10k_programs_per_k/1gram/jgproject/autosave_QjfKVd.db'.
+2025-03-21 08:52:12.475812 (58169) session_ INFO    Analysis session 'session_0' disconnected.
+2025-03-21 08:52:12.475923 (58169) lic__man INFO    Unclaim everything for 'session_0'.
+2025-03-21 08:52:12.476313 (58169) session_ INFO    Process for analysis session 'session_0' has exited with exit status '0'.
+2025-03-21 08:52:12.669894 (58195) main____ INFO    SIGINT received (#3). Forcing exit.
